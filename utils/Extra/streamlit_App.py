@@ -11,9 +11,9 @@ def clean_text(text):
 
 
 # Load grant data
-grant_data = grant_recommendation.read_grants_from_csv("backend/grants.csv")
+grant_data = grant_recommendation.read_grants_from_csv("grants.csv")
 
-# Title and description
+# Title and description 
 st.title("Grant Finder")
 st.write("Find the best grants for your project based on your project description.")
 
